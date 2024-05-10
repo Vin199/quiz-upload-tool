@@ -1,0 +1,57 @@
+#root {
+  padding: 0px;
+  margin: 0px;
+}
+
+.appContainer {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.formDivContainer {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  margin-left: 10px;
+}
+
+.questionFormDiv,
+.quizFormDiv,
+.instructionsFormDiv {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  border-right: 0;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  border: 1px solid var(--gg, #dedede);
+}
+
+.border-right {
+  border-right: 1px solid var(--gg, #dedede);
+}
+
+.titleDiv {
+  height: 25%;
+}
+
+.form {
+  height: 75%;
+}
